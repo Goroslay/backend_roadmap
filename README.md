@@ -1,6 +1,7 @@
 # Task Tracker CLI
 
-¡Bienvenido al **Task Tracker CLI**! Este es un proyecto en Node.js diseñado para gestionar tareas directamente desde la terminal. 
+¡Bienvenido al **Task Tracker CLI**! Este es un proyecto en Node.js diseñado para gestionar tareas directamente desde la terminal.
+Este proyecto esta desarrollado como parte de los proyectos de practicas para backend del sitio roadmap.sh: https://roadmap.sh/projects/task-tracker
 
 ## 🛠️ Funcionalidades
 
