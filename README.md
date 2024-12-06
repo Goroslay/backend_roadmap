@@ -2,7 +2,7 @@
 
 ¡Bienvenido al **Task Tracker CLI**! Este es un proyecto en Node.js diseñado para gestionar tareas directamente desde la terminal. 
 
-## Funcionalidades
+## 🛠️ Funcionalidades
 
 - **Añadir tareas**: Registra nuevas tareas con detalles personalizados.
 - **Listar tareas**: Muestra todas las tareas pendientes o completadas.
@@ -10,14 +10,14 @@
 - **Eliminar tareas**: Elimina tareas específicas de tu lista.
 - **Guardar tareas**: Persiste las tareas en un archivo JSON (`tareas.json`).
 
-## Requisitos previos
+## ⚙️ Requisitos previos
 
 Asegúrate de tener instalado lo siguiente en tu sistema:
 
 - [Node.js](https://nodejs.org/) (versión 14 o superior)
 - npm (viene incluido con Node.js)
 
-## Instalación
+## 🚀 Instalación
 
 1. Clona este repositorio:
 
@@ -26,26 +26,29 @@ Asegúrate de tener instalado lo siguiente en tu sistema:
    cd Task-tracker-CLI
    
 2. Instala las dependencias:
+   ```bash
    npm install
-
-## Uso
+   ```
+## 🧑‍💻 Uso
 
 1. Ejecuta el programa:
+   ```bash
    node index.js
+   ```
+3. Sigue las instrucciones en la terminal para interactuar con el Task Tracker.
 
-2. Sigue las instrucciones en la terminal para interactuar con el Task Tracker.
+## 📂 Estructura del proyecto
 
-## Estructura del proyecto
+```bash
+  Task-tracker-CLI/
+├── helpers/           # Funciones auxiliares para manejar las operaciones del programa
+├── index.js           # Punto de entrada de la aplicación
+├── tareas.json        # Almacenamiento de tareas en formato JSON
+├── package.json       # Configuración del proyecto y dependencias
+└── node_modules/      # Dependencias instaladas (autogenerado por npm)
+```
 
-   Task-tracker-CLI/
-   ├── helpers/           # Funciones auxiliares del proyecto
-   ├── index.js           # Punto de entrada de la aplicación
-   ├── tareas.json        # Almacenamiento de tareas en formato JSON
-   ├── package.json       # Configuración y dependencias del proyecto
-   └── node_modules/      # Dependencias instaladas (autogenerado)
-
-
-## Contribuciones
+## 🛡️ Contribuciones
 
    Las contribuciones son bienvenidas. Si deseas contribuir:
 
