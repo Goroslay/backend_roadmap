@@ -1,136 +1,56 @@
-# Backend Roadmap
+# Task Tracker CLI
 
-![Roadmap Banner](https://via.placeholder.com/800x200)
+¡Bienvenido al **Task Tracker CLI**! Este es un proyecto en Node.js diseñado para gestionar tareas directamente desde la terminal. 
 
-Este repositorio contiene una guía detallada para aprender y desarrollar habilidades como programador backend. Sigue este roadmap para adquirir conocimientos clave en tecnologías, herramientas y mejores prácticas de desarrollo backend.
+## Funcionalidades
 
----
+- **Añadir tareas**: Registra nuevas tareas con detalles personalizados.
+- **Listar tareas**: Muestra todas las tareas pendientes o completadas.
+- **Actualizar tareas**: Modifica el estado o los detalles de una tarea existente.
+- **Eliminar tareas**: Elimina tareas específicas de tu lista.
+- **Guardar tareas**: Persiste las tareas en un archivo JSON (`tareas.json`).
 
-## 🚀 **Índice**
+## Requisitos previos
 
-- [Objetivo del Proyecto](#objetivo-del-proyecto)
-- [Contenido](#contenido)
-- [Cómo Usar Este Repositorio](#cómo-usar-este-repositorio)
-- [Requisitos Previos](#requisitos-previos)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+Asegúrate de tener instalado lo siguiente en tu sistema:
 
----
+- [Node.js](https://nodejs.org/) (versión 14 o superior)
+- npm (viene incluido con Node.js)
 
-## 🎯 **Objetivo del Proyecto**
+## Instalación
 
-Proporcionar un roadmap estructurado para aprender las tecnologías y habilidades más demandadas en el desarrollo backend. Este repositorio está dirigido a desarrolladores principiantes e intermedios que desean profundizar en el backend.
+1. Clona este repositorio:
 
----
-
-## 📂 **Contenido**
-
-El roadmap incluye los siguientes temas:
-
-1. **Conceptos Básicos**
-   - Fundamentos de programación
-   - Estructuras de datos y algoritmos
-
-2. **HTTP y Redes**
-   - HTTP/HTTPS
-   - API REST y GraphQL
-
-3. **Lenguajes Backend**
-   - JavaScript/Node.js
-   - Python
-   - Otros lenguajes populares (opcional)
-
-4. **Bases de Datos**
-   - Relacionales (PostgreSQL, MySQL)
-   - NoSQL (MongoDB)
-
-5. **Herramientas**
-   - Control de versiones (Git)
-   - Docker y Kubernetes
-
-6. **Pruebas y CI/CD**
-   - Unit testing, integración y despliegue continuo
-
-7. **Buenas Prácticas**
-   - Seguridad
-   - Arquitecturas limpias
-
-8. **Despliegue**
-   - Servidores
-   - Servicios en la nube (AWS, Azure)
-
----
-
-## 🛠️ **Cómo Usar Este Repositorio**
-
-1. **Clona el repositorio:**
    ```bash
    git clone https://github.com/Goroslay/backend_roadmap.git
-# Backend Roadmap
+   cd Task-tracker-CLI
+   
+2. Instala las dependencias:
+   npm install
 
-![Roadmap Banner](https://via.placeholder.com/800x200) <!-- Reemplaza con un banner si tienes uno -->
+## Uso
 
-Este repositorio contiene una guía detallada para aprender y desarrollar habilidades como programador backend. Sigue este roadmap para adquirir conocimientos clave en tecnologías, herramientas y mejores prácticas de desarrollo backend.
+1. Ejecuta el programa:
+   node index.js
 
----
+2. Sigue las instrucciones en la terminal para interactuar con el Task Tracker.
 
-## 🚀 **Índice**
+## Estructura del proyecto
 
-- [Objetivo del Proyecto](#objetivo-del-proyecto)
-- [Contenido](#contenido)
-- [Cómo Usar Este Repositorio](#cómo-usar-este-repositorio)
-- [Requisitos Previos](#requisitos-previos)
-- [Contribuciones](#contribuciones)
-- [Licencia](#licencia)
+   Task-tracker-CLI/
+   ├── helpers/           # Funciones auxiliares del proyecto
+   ├── index.js           # Punto de entrada de la aplicación
+   ├── tareas.json        # Almacenamiento de tareas en formato JSON
+   ├── package.json       # Configuración y dependencias del proyecto
+   └── node_modules/      # Dependencias instaladas (autogenerado)
 
----
 
-## 🎯 **Objetivo del Proyecto**
+## Contribuciones
 
-Proporcionar un roadmap estructurado para aprender las tecnologías y habilidades más demandadas en el desarrollo backend. Este repositorio está dirigido a desarrolladores principiantes e intermedios que desean profundizar en el backend.
+   Las contribuciones son bienvenidas. Si deseas contribuir:
 
----
-
-## 📂 **Contenido**
-
-El roadmap incluye los siguientes temas:
-
-1. **Conceptos Básicos**
-   - Fundamentos de programación
-   - Estructuras de datos y algoritmos
-
-2. **HTTP y Redes**
-   - HTTP/HTTPS
-   - API REST y GraphQL
-
-3. **Lenguajes Backend**
-   - JavaScript/Node.js
-   - Python
-   - Otros lenguajes populares (opcional)
-
-4. **Bases de Datos**
-   - Relacionales (PostgreSQL, MySQL)
-   - NoSQL (MongoDB)
-
-5. **Herramientas**
-   - Control de versiones (Git)
-   - Docker y Kubernetes
-
-6. **Pruebas y CI/CD**
-   - Unit testing, integración y despliegue continuo
-
-7. **Buenas Prácticas**
-   - Seguridad
-   - Arquitecturas limpias
-
-8. **Despliegue**
-   - Servidores
-   - Servicios en la nube (AWS, Azure)
-
----
-
-## 🛠️ **Cómo Usar Este Repositorio**
-
-1. **Clona el repositorio:**
-   ```bash
-   git clone https://github.com/Goroslay/backend_roadmap.git
+   1. Haz un fork del proyecto.
+   2. Crea una rama nueva (git checkout -b feature/nueva-funcionalidad).
+   3. Realiza los cambios y haz un commit (git commit -m 'Agrega nueva funcionalidad').
+   4. Haz push a la rama (git push origin feature/nueva-funcionalidad).
+   5. Abre un Pull Request.
